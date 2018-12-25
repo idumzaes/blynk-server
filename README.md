@@ -16,17 +16,10 @@ Easy peasy:
 docker run idumzaes/blynk-server
 ```
 
-<<<<<<< HEAD
 To forward ports, persist data and include your own server.properties file:
 
 ```sh
 docker run -dit --restart unless-stopped --network host -v ~/blynk-server/data:/data -v ~/blynk-server/data/server.properties:/config/server.properties idumzaes/blynk-server
-=======
-To forward IP ports, persist data and include your own server.properties file:
-
-```sh
-docker run -v ~/blynk-server/data:/data -v ~/blynk-server/data/server.properties:/config/server.properties -p 8080:8080 -p 8441:8441 -p 9443:9443 idumzaes/blynk-server
->>>>>>> e3789ffee6abca63fb7b9d6718af092a1d472006
 ```
 
 Or you can use a data volume in another container (check out different data volume techniques [here](https://docs.docker.com/engine/tutorials/dockervolumes/)).
