@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 FROM arm64v8/openjdk:jre-slim
-=======
-FROM arm64v8/openjdk:7-jre-alpine
->>>>>>> d9df57cdbcd7b2fc78867ca90ad26a41f46d720b
 MAINTAINER idumzaes
 
 ENV BLYNK_SERVER_VERSION 0.39.12
