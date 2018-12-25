@@ -1,5 +1,5 @@
-FROM openjdk:10-jre
-MAINTAINER Michael Ferguson <mpherg@gmail.com>
+FROM arm64v8/openjdk
+MAINTAINER idumzaes
 
 ENV BLYNK_SERVER_VERSION 0.39.12
 RUN mkdir /blynk
