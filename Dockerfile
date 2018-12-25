@@ -1,4 +1,4 @@
-FROM arm64v8/openjdk
+FROM arm64v8/openjdk:11-jre
 MAINTAINER idumzaes
 
 ENV BLYNK_SERVER_VERSION 0.39.12
